@@ -1,9 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-function App() {
+import "bootstrap/dist/css/bootstrap.min.css";
+import Informacion from "./components/informacion";
 
-  return <section className='container my-5'>
-    <h1 className='text-center'>Hello World!</h1>
-  </section>
+function App() {
+  return (
+    <section className="container my-5">
+      <h1 className="text-center">Hello World!</h1> <hr />
+      <Informacion Hello="my friend!" />
+    </section>
+  );
 }
 
-export default App
+export default App;
